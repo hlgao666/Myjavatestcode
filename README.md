@@ -1,2 +1,0 @@
-# Myjavatestcode
-java test code

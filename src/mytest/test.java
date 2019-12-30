@@ -9,7 +9,7 @@ public class test {
 
         //1
         int[][] temp1 = new int[][]{
-                {1, 2, 3},
+                {1, 2},
                 {4, 5}
         };
         System.out.println(Arrays.toString(temp1[1]));
