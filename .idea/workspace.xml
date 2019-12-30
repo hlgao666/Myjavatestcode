@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c326ad9f-cab0-43b5-9caa-5d1accd593f1" name="Default Changelist" comment="" />
+    <list default="true" id="c326ad9f-cab0-43b5-9caa-5d1accd593f1" name="Default Changelist" comment="modify the folder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mytest/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mytest/test.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +27,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/blog/source/_posts/Markdown语法介绍.md" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyJframetest" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -75,7 +78,16 @@
       <workItem from="1577534979145" duration="3213000" />
       <workItem from="1577538559591" duration="1329000" />
       <workItem from="1577603239447" duration="1274000" />
+      <workItem from="1577710084575" duration="6368000" />
     </task>
+    <task id="LOCAL-00001" summary="modify the folder">
+      <created>1577708759320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577708759320</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,10 +98,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modify the folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify the folder" />
   </component>
 </project>
