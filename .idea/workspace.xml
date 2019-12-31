@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c326ad9f-cab0-43b5-9caa-5d1accd593f1" name="Default Changelist" comment="modify the folder">
+    <list default="true" id="c326ad9f-cab0-43b5-9caa-5d1accd593f1" name="Default Changelist" comment="test Calendar class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mytest/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mytest/test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +46,7 @@
   </component>
   <component name="RunManager">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mytest.test" />
+      <option name="MAIN_CLASS_NAME" value="testCalendar.TestCalendar" />
       <module name="mytestcode" />
       <extension name="coverage">
         <pattern>
@@ -78,7 +77,7 @@
       <workItem from="1577534979145" duration="3213000" />
       <workItem from="1577538559591" duration="1329000" />
       <workItem from="1577603239447" duration="1274000" />
-      <workItem from="1577710084575" duration="6368000" />
+      <workItem from="1577710084575" duration="16479000" />
     </task>
     <task id="LOCAL-00001" summary="modify the folder">
       <created>1577708759320</created>
@@ -87,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577708759320</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add new test-20191230">
+      <created>1577717411880</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577717411880</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test Calendar class">
+      <created>1577783346040</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577783346040</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +109,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -105,9 +143,16 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modify the folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify the folder" />
+    <MESSAGE value="add new test-20191230" />
+    <MESSAGE value="test Calendar class" />
+    <option name="LAST_COMMIT_MESSAGE" value="test Calendar class" />
   </component>
 </project>
