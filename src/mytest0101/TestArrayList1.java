@@ -1,5 +1,8 @@
 package mytest0101;
 
+
+//自定义ArrayList类
+//增加泛型
 public class TestArrayList1 {
     public static void main(String[] args) {
         TestArrayList02<String> tal = new TestArrayList02<>(5);
