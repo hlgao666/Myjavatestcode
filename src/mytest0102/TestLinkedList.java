@@ -3,6 +3,7 @@ package mytest0102;
 import java.util.LinkedList;
 
 //测试LinkedList
+//Vector线程安全，但效率低。
 public class TestLinkedList {
 
     private Node first;     //第一个节点
