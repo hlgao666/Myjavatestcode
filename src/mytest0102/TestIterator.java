@@ -5,7 +5,7 @@ import java.util.*;
 public class TestIterator {
 
     //定义迭代器实现List的循环
-    public static void testIterList() {
+    public static void testIterList01() {
         List<String> list = new ArrayList<>();
         list.add("ahk");
         list.add("wof");
@@ -17,6 +17,36 @@ public class TestIterator {
         }
     }
 
+    //使用while循环实现List的遍历
+    public static void testWhileList02() {
+
+        List<String> list = new ArrayList<>();
+        list.add("ahk");
+        list.add("wof");
+        list.add("fox");
+
+        Iterator<String> iterator = list.iterator();
+
+        while (iterator.hasNext()) {     //需要一边遍历一边删除时，使用while循环
+            Object obj = iterator.next();
+            iterator.remove();
+            System.out.println(obj);
+        }
+    }
+
+    //使用增强for循环实现List的遍历
+    public static void testForList03() {
+
+        List<String> list2 = new ArrayList<>();
+
+        list2.add("WD");
+        list2.add("KL");
+        list2.add("AP");
+
+        for (String temp : list2) {
+            System.out.println(temp);
+        }
+    }
     //定义迭代器实现Set的循环
     public static void testIterSet() {
         Set<String> set = new TreeSet<>();
@@ -53,6 +83,7 @@ public class TestIterator {
         map1.put(333, "aop");
         map1.put(555, "wwe");
 
+        //获取键的集合
         Set<Integer> keySet = map1.keySet();
         for (Iterator<Integer> iterator = keySet.iterator(); iterator.hasNext(); ) {
             Integer key = iterator.next();
@@ -61,9 +92,11 @@ public class TestIterator {
     }
 
     public static void main(String[] args) {
-        testIterList();
-        testIterSet();
-        testIterMap01();
+//        testIterList01();
+        testWhileList02();
+//        testForList03();
+//        testIterSet();
+//        testIterMap01();
         testIterMap02();
     }
 }
