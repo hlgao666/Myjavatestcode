@@ -1,0 +1,8 @@
+1.并发：同一个对象被多个线程同时操作
+
+2.解决并发导致的线程不安全：队列+锁机制（Synchronized）
+
+3.线程同步：Synchronized方法或Synchronized块，若方法体太大会影响效率
+
+4.并发容器：CopyOnWriteList,内部含有Synchronized的lock
+CopyOnWriteList list = new CopyOnWriteList();   //自动实现Synchronized
