@@ -1,0 +1,37 @@
+一、IP地址用来区分计算机
+
+InetAddress提供多个静态方法
+
+1.getLocalHost():返回本机
+2.getByName():根据域名DNS | IP地址 ---> IP地址
+两个成员方法：
+1）getHostAddress() ---> IP地址
+2）getHostName() ---> 名称
+
+
+二、Port端口用来区分同一计算机上的网络应用程序
+
+范围：0-65535
+
+80：www协议端口
+8080：tomcat端口
+1521：oracle端口
+3306：MySQL端口
+
+查看所有端口：netstat -ano
+查看指定端口：netstat -ano | findstr"3306"
+查看指定进程：tasklist | findstr"3306"
+查看具体程序：使用任务管理器查看PID
+
+InetSocketAddress
+构造器：new InetSocketAddress(IP地址/域名，端口号);
+常用方法：
+getAddress();
+getPort();
+getHostName()
+
+三、URL---统一资源定位符，互联网三大基石之一(html、http)
+由4部分组成：
+协议、存放资源的主机域名、端口号(默认80)和资源文件名
+
+Socket(套接字)通信
