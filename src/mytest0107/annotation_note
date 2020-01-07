@@ -1,0 +1,19 @@
+xml:可扩展标记语言，作为数据的一种存储格式或用于存储软件的参数
+xml解析：SAX
+
+annotation:注解
+
+e.g.
+内置注解：
+@Override:重写父类方法
+@Deprecated:不建议使用的方法
+@SuppressWarnings:抑制警告，参数"all"。@SuppressWarnings("all")用于类前，可抑制某类所有警告
+
+ORM:Object Relationship Mapping(对象关系映射)
+对应关系：
+java-类class<--->MySQL-表table
+类<--->表结构
+属性<--->字段
+对象<--->记录
+
+脚本引擎：Rhino
