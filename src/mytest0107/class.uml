@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="337.52758975528116">mytest0107.Demo02</node>
+    <node x="0.0" y="1184.1754862896964">mytest0107.TestScriptEngine</node>
+    <node x="0.0" y="1035.6754862896964">mytest0107.Demo01</node>
+    <node x="530.2555741837097" y="996.1754862896964">mytest0107.TestDynamicCompiler</node>
+    <node x="309.6630207412642" y="52.5">mytest0107.Demo03</node>
+    <node x="261.25557418370965" y="996.1754862896964">mytest0107.Test_Annotation</node>
+    <node x="19.66302074126419" y="0.0">mytest0107.Field</node>
+    <node x="843.2555741837097" y="996.1754862896964">mytest0107.TestReflection</node>
+    <node x="630.0094829080406" y="0.0">mytest0107.User</node>
+    <node x="7.410692551850659" y="616.200669893338">mytest0107.Table</node>
+    <node x="16.948354530127204" y="835.1754862896963">mytest0107.Student</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="mytest0107.Student" target="mytest0107.Table">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="mytest0107.Demo03" target="mytest0107.User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="mytest0107.Demo01" target="mytest0107.Test_Annotation">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="mytest0107.Demo02" target="mytest0107.Field">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="mytest0107.Demo02" target="mytest0107.Table">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Balloon" zoom="1.0" x="655.6513097043023" y="395.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
