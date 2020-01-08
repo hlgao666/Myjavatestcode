@@ -6,3 +6,4 @@
 
 4.并发容器：CopyOnWriteList,内部含有Synchronized的lock
 CopyOnWriteList list = new CopyOnWriteList();   //自动实现Synchronized
+一边修改一边遍历时，推荐使用此类型容器
