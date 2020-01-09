@@ -1,0 +1,61 @@
+面向对象设计的基本原则：
+1.OCP-Open Closed Principle：开闭原则，软件的实体对扩展开放，对修改关闭
+
+2.DIP-Dependence Inversion Principle:依赖倒转原则，针对接口编程，而不是针对实现编程
+
+3.LoD-Law of Demeter:迪米特原则，只与你直接的朋友通信，而避免和陌生人通信。
+
+设计模式分为3大类：
+1.创建型模式：
+
+1）单例模式：一个类只有一个实例对象，同时提供开放的访问方法
+实现方式：
+-饿汉式：线程安全，调用效率高，但不能延时加载
+-懒汉式：线程安全，调用效率不高，但可以延时加载
+其他：
+-双重检测锁式：提高了执行效率，由于编译器优化和JVM底层内部模型原因，不建议使用
+-静态内部类式：静态内部类实现懒加载，线程安全，调用效率高，并且实现了延时加载
+-枚举单例：实现简单，枚举本身就是单例模式，避免使用反射和反序列化的漏洞。但无延时加载。
+
+如何选用？
+单例对象，占用资源少，不需延时加载，枚举式优于饿汉式。
+单例对象，占用资源大，需要延时加载，静态内部类优于懒汉式。
+
+CountDownLatch:同步线程辅助类。在完成一组正在其他线程中执行的操作之前，它允许一个或多个线程阻塞，直到计数器为0.
+
+2）工厂模式：实现了创建者和调用者的分离
+实现方式：
+-简单工厂模式：不符合开闭原则，但实际使用最多
+-工厂方法模式：不修改已有类的前提下，通过增加新的工厂类实现扩展
+-抽象工厂模式：不可以增加产品，但可以增加产品组
+
+3）建造者模式
+4）原型模式：prototype 深复制/浅复制
+
+
+2.结构型模式：
+
+1）适配器模式：adapter pattern
+2）代理模式：Proxy pattern
+-静态代理
+-动态代理
+3）桥接模式：bridge pattern
+4)组合模式：composite pattern
+5)装饰器模式：decorator pattern
+6)外观模式：Facade Pattern
+7）享元模式：FlyWeight pattern
+
+
+3.行为型模式：
+
+1)模版方法模式：template pattern
+2)命令模式：command pattern
+3)迭代器模式：iterator pattern
+4)责任链模式：chain of responsibility
+5)中介者模式：Mediator pattern
+6)备忘录模式：memento pattern
+7)解释器模式：Interpreter pattern
+8)状态模式：state pattern
+9)策略模式：strategy pattern
+10)观察者模式：Observer pattern
+11)访问者模式：Visitor pattern

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="557.5" y="48.0">mytest0108.Client03</node>
+    <node x="897.5" y="48.0">mytest0108.AudiFactory</node>
+    <node x="257.5" y="128.0">mytest0108.CarFactory02</node>
+    <node x="2.5" y="368.0">mytest0108.Ben</node>
+    <node x="1162.5" y="248.0">mytest0108.Audi</node>
+    <node x="602.5" y="248.0">mytest0108.Car</node>
+    <node x="-22.5" y="248.0">mytest0108.BenFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="mytest0108.Client03" target="mytest0108.BenFactory">
+      <point x="-122.5" y="-0.0" />
+      <point x="80.0" y="80.0" />
+      <point x="0.0" y="-32.0" />
+    </edge>
+    <edge source="mytest0108.Client03" target="mytest0108.AudiFactory">
+      <point x="122.5" y="-0.0" />
+      <point x="-102.5" y="-0.0" />
+    </edge>
+    <edge source="mytest0108.BenFactory" target="mytest0108.Ben">
+      <point x="0.0" y="32.0" />
+      <point x="0.0" y="-32.0" />
+    </edge>
+    <edge source="mytest0108.CarFactory02" target="mytest0108.Car">
+      <point x="0.0" y="32.0" />
+      <point x="360.0" y="260.0" />
+      <point x="-77.5" y="-20.0" />
+    </edge>
+    <edge source="mytest0108.Ben" target="mytest0108.Car">
+      <point x="77.5" y="-0.0" />
+      <point x="680.0" y="400.0" />
+      <point x="0.0" y="32.0" />
+    </edge>
+    <edge source="mytest0108.Client03" target="mytest0108.Car">
+      <point x="0.0" y="32.0" />
+      <point x="0.0" y="-32.0" />
+    </edge>
+    <edge source="mytest0108.AudiFactory" target="mytest0108.Car">
+      <point x="0.0" y="32.0" />
+      <point x="1000.0" y="260.0" />
+      <point x="77.5" y="-20.0" />
+    </edge>
+    <edge source="mytest0108.BenFactory" target="mytest0108.Car">
+      <point x="102.5" y="-0.0" />
+      <point x="-77.5" y="-0.0" />
+    </edge>
+    <edge source="mytest0108.Audi" target="mytest0108.Car">
+      <point x="-77.5" y="-0.0" />
+      <point x="77.5" y="-0.0" />
+    </edge>
+    <edge source="mytest0108.AudiFactory" target="mytest0108.Audi">
+      <point x="102.5" y="-0.0" />
+      <point x="1240.0" y="80.0" />
+      <point x="0.0" y="-32.0" />
+    </edge>
+    <edge source="mytest0108.AudiFactory" target="mytest0108.CarFactory02">
+      <point x="0.0" y="-32.0" />
+      <point x="1000.0" y="0.0" />
+      <point x="360.0" y="0.0" />
+      <point x="0.0" y="-32.0" />
+    </edge>
+    <edge source="mytest0108.BenFactory" target="mytest0108.CarFactory02">
+      <point x="40.0" y="-32.0" />
+      <point x="120.0" y="160.0" />
+      <point x="-102.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Directed Orthogonal" zoom="1.0" x="549.0" y="236.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
