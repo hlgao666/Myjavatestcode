@@ -1,0 +1,8 @@
+SQL注入问题：内部定义了查询参数为String str; 当外部查询语句str = "5 or delete from..."时，会引起数据库的不安全
+为避免此问题，通常采用占位符"?"
+e.g.
+String str = "insert into t_student (username,age) values (?,?)";
+PreparedStatements ps = conn.preparedStatements(str);
+ps.setObject(1,"sk");        //占位符从1开始计数
+ps.setObject(2,18);
+至此，则插入了一条（username=sk, age=18）的记录
